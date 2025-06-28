@@ -1,0 +1,30 @@
+### Create a new todo item
+POST http://localhost:3000/todolist
+Content-Type: application/json
+
+{
+  "item": "test"
+}
+
+### Get all todo items
+GET http://localhost:3000/todolist
+
+### Get a single todo item by ID
+GET http://localhost:3000/todolist/1
+
+### Get a list todo item by IDs
+GET http://localhost:3000/todolist/3/7
+
+### Update a todo item
+PATCH http://localhost:3000/todolist/1
+Content-Type: application/json
+
+{
+  "done": true
+}
+
+### Delete a todo item
+DELETE http://localhost:3000/todolist/3
+
+### Delete all
+DELETE http://localhost:3000/todolist
