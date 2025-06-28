@@ -65,7 +65,7 @@ export default function Home() {
   return (
     <div className="bg-gray-100 min-h-screen">
 
-      <header><Navbar /></header>
+      <header><Navbar titleLink="https://github.com/guilhermeasn/todolist_nestjs_nextjs" /></header>
 
       <main>
 
