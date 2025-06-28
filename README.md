@@ -9,7 +9,6 @@ Projeto fullstack de uma lista de tarefas simples (TodoList) desenvolvido como e
 - TypeORM
 - SQLite (banco local para testes)
 - Class-validator (validações com DTO)
-- Swagger (documentação opcional)
 - REST API
 
 ### Frontend (Next.js)
